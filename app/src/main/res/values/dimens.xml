@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- General -->
+  <dimen name="text_size">30sp</dimen>
+
+  <!-- Element -->
+  <dimen name="element_padding">10dp</dimen>
+
+  <!-- Character -->
+  <dimen name="character_header_height">240dp</dimen>
+  <dimen name="character_description_padding">10dp</dimen>
+</resources>
