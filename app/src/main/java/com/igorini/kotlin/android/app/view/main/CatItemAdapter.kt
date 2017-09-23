@@ -7,6 +7,7 @@ import android.widget.TextView
 import com.igorini.kotlin.android.app.R
 import com.igorini.kotlin.android.app.model.Cat
 import com.igorini.kotlin.android.app.view.common.ItemAdapter
+import com.igorini.kotlin.android.app.view.common.bindView
 
 /** Represents an item adapter for a cat icon */
 class CatItemAdapter(
