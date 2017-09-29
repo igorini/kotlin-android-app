@@ -32,13 +32,11 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     compile "com.android.support:recyclerview-v7:$android_support_version"
     compile "com.github.bumptech.glide:glide:$glide_version"
-}
-
-allprojects {
-    repositories {
-        jcenter()
-        maven {
-            url "https://maven.google.com"
-        }
-    }
+    compile "io.reactivex.rxjava2:rxjava:$rxjava_version"
+    compile "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
+    compile(["com.squareup.retrofit2:retrofit:$retrofit_version",
+             "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version",
+             "com.squareup.retrofit2:converter-gson:$retrofit_version",
+             "com.squareup.okhttp3:okhttp:$okhttp_version",
+             "com.squareup.okhttp3:logging-interceptor:$okhttp_version"])
 }
