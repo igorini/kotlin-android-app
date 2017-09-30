@@ -4,6 +4,7 @@ import android.util.AttributeSet
 import android.widget.FrameLayout
 import android.content.Context
 
+/** Represents a layout of a square shape */
 class SquareFrameLayout @JvmOverloads constructor(
         context: Context,
         attrs: AttributeSet? = null,
