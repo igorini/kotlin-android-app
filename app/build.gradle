@@ -39,4 +39,9 @@ dependencies {
              "com.squareup.retrofit2:converter-gson:$retrofit_version",
              "com.squareup.okhttp3:okhttp:$okhttp_version",
              "com.squareup.okhttp3:logging-interceptor:$okhttp_version"])
+
+    // Kotlin-Realm-Extensions
+    compile "com.github.vicpinm:krealmextensions:$krealmextensions_verson"
+    compile "com.github.vicpinm:krealmextensions-rxjava:$krealmextensions_verson"
+    compile "com.github.vicpinm:krealmextensions-rxjava2:$krealmextensions_verson"
 }
