@@ -37,6 +37,9 @@ dependencies {
              "com.squareup.okhttp3:okhttp:$okhttp_version",
              "com.squareup.okhttp3:logging-interceptor:$okhttp_version"])
 
+    // Kodein
+    compile "com.github.salomonbrys.kodein:kodein:$kodein_version"
+
     // Kotlin-Realm-Extensions
     compile "com.github.vicpinm:krealmextensions:$krealmextensions_verson"
     compile "com.github.vicpinm:krealmextensions-rxjava:$krealmextensions_verson"
