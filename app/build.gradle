@@ -40,6 +40,9 @@ dependencies {
     // Kodein
     compile "com.github.salomonbrys.kodein:kodein:$kodein_version"
 
+    // Anko
+    compile "org.jetbrains.anko:anko:$anko_version"
+
     // Kotlin-Realm-Extensions
     compile "com.github.vicpinm:krealmextensions:$krealmextensions_verson"
     compile "com.github.vicpinm:krealmextensions-rxjava:$krealmextensions_verson"
