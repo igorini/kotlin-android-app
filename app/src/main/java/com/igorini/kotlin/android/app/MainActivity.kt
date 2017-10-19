@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 /** Represents a main activity UI */
-class MainActivityUi : AnkoComponent<MainActivity> {
+/*class MainActivityUi : AnkoComponent<MainActivity> {
     private val customStyle = { v: Any ->
         when (v) {
             is Button -> v.textSize = 26f
@@ -31,4 +31,4 @@ class MainActivityUi : AnkoComponent<MainActivity> {
             padding = dip(32)
         }.applyRecursively(customStyle)
     }
-}
+}*/
