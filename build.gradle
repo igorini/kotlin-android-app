@@ -15,14 +15,17 @@ buildscript {
     ext.espresso_version = '2.2.2'
     ext.kodein_version = '4.1.0'
     ext.anko_version = '0.10.1'
+    ext.gradle_android_plugin_version = '3.0.0'
 
     repositories {
         jcenter()
+        google()
     }
 
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "io.realm:realm-gradle-plugin:$realm_version"
+        classpath "com.android.tools.build:gradle:$gradle_android_plugin_version"
     }
 }
 
